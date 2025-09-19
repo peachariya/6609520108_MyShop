@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ewert');
+@import url('https://fonts.googleapis.com/css?family=Ultra');
+
+body {
+    background-image: url('../img/wood.jpg');
+    background-size: cover;
+    padding: 20px;
+    font-family: 'Ultra', sans-serif;
+    color: #291200; 
+    display: flex;
+    justify-content: center;
+}
+
+.poster {
+    background-color: #f5e9c9;
+    width: 488px;
+    height: 760px;
+    background-image: url('../img/paper.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.6); 
+}
+
+#mugshot {
+    width: 300px;
+    height: 325px;
+    border: 2px solid #291200;
+    padding: 10px;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+h1 {
+    font-family: 'Ewert', cursive;
+    color: #291200;
+    font-size: 44pt;
+    font-weight: normal;
+    margin: 0;
+}
+
+.subheading {
+    font-size: 24pt;
+    font-family: 'Ultra', sans-serif;
+    margin: 5px 0 20px 0;
+}
+
+.name {
+    font-size: 28pt;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 20pt;
+    font-style: italic;
+    margin: 10px 0 20px 0;
+}
+
+h2 {
+    font-size: 24pt;
+    font-family: 'Ultra', sans-serif;
+    margin: 20px 0 10px 0;
+}
+
+#price {
+    font-size: 24pt;
+    font-weight: bold;
+    text-decoration-line: underline double;
+    margin-bottom: 10px;
+}
